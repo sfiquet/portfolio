@@ -1,8 +1,10 @@
+/*
+* {
+  outline: 1px solid red;
+}
+*/
+
 .viewport-height {
   height: 100vh;
   padding-top: 56px;
-}
-
-.btn-border-thick {
-  border-width: 2px;
 }
