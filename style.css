@@ -25,3 +25,12 @@
   object-fit: cover;
   opacity: 0.4;
 }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Amarante', cursive;
+}
+
+.brand {
+  font-family: 'Amarante', cursive;
+}
