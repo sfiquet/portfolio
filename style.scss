@@ -4,6 +4,8 @@
 }
 */
 
+$theme-colour: hsl(0, 100%, 37.6%);
+
 $navbar-height: 56px;
 
 .hero-height {
@@ -33,6 +35,11 @@ $navbar-height: 56px;
 
 section {
   padding-top: $navbar-height;
+  padding-bottom: $navbar-height;
+}
+
+section h1 {
+  margin-bottom: $navbar-height;
 }
 
 body {
@@ -49,13 +56,17 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .header-color {
-  background-color: hsl(0, 100%, 30%);
+  background-color: $theme-colour;
 }
 
 a {
-  color: hsl(0, 100%, 30%);
+  color: $theme-colour;
 }
 
 a:hover {
-  color: hsl(0, 100%, 40%);
+  color: hsl(0, 100%, 45%);
+}
+
+#contact {
+  background-color: hsl(30, 10%, 90%);
 }
