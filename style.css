@@ -32,7 +32,8 @@ section h1 {
   margin-bottom: 56px; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  color: #5c0a0a; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -53,4 +54,10 @@ a:hover {
 #contact {
   background-color: #e8e6e3; }
 
-/*# sourceMappingURL=style.css.map */
+.border-theme {
+  border-color: rgba(192, 0, 0, 0.7);
+  box-shadow: 5px 5px 10px rgba(125, 67, 67, 0.7); }
+
+.card-body {
+  border-top: 1px solid rgba(192, 0, 0, 0.7);
+  padding: .7rem; }

@@ -5,6 +5,9 @@
 */
 
 $theme-colour: hsl(0, 100%, 37.6%);
+$border-colour: hsla(0, 100%, 37.6%, .7);
+$shadow-colour: hsla(0, 30%, 37.6%, .7);
+$text-colour: hsl(0, 80%, 20%);
 
 $navbar-height: 56px;
 
@@ -44,6 +47,7 @@ section h1 {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: $text-colour;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -69,4 +73,14 @@ a:hover {
 
 #contact {
   background-color: hsl(30, 10%, 90%);
+}
+
+.border-theme {
+  border-color: $border-colour;
+  box-shadow: 5px 5px 10px $shadow-colour;
+}
+
+.card-body {
+  border-top: 1px solid $border-colour;
+  padding: .7rem;
 }
